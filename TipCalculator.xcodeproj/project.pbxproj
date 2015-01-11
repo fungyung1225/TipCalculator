@@ -13,6 +13,7 @@
 		CEC40D811A62D23B00E8256C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEC40D801A62D23B00E8256C /* Images.xcassets */; };
 		CEC40D841A62D23B00E8256C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEC40D821A62D23B00E8256C /* LaunchScreen.xib */; };
 		CEC40D901A62D23B00E8256C /* TipCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC40D8F1A62D23B00E8256C /* TipCalculatorTests.swift */; };
+		CEC40D9A1A62D27000E8256C /* TipCalculatorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC40D991A62D27000E8256C /* TipCalculatorModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		CEC40D891A62D23B00E8256C /* TipCalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TipCalculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEC40D8E1A62D23B00E8256C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CEC40D8F1A62D23B00E8256C /* TipCalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipCalculatorTests.swift; sourceTree = "<group>"; };
+		CEC40D991A62D27000E8256C /* TipCalculatorModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TipCalculatorModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 				CEC40D801A62D23B00E8256C /* Images.xcassets */,
 				CEC40D821A62D23B00E8256C /* LaunchScreen.xib */,
 				CEC40D771A62D23B00E8256C /* Supporting Files */,
+				CEC40D991A62D27000E8256C /* TipCalculatorModel.swift */,
 			);
 			path = TipCalculator;
 			sourceTree = "<group>";
@@ -212,6 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEC40D9A1A62D27000E8256C /* TipCalculatorModel.swift in Sources */,
 				CEC40D7C1A62D23B00E8256C /* ViewController.swift in Sources */,
 				CEC40D7A1A62D23B00E8256C /* AppDelegate.swift in Sources */,
 			);
