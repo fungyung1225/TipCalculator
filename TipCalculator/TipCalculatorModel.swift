@@ -9,7 +9,7 @@
 import Foundation
 
 class TipCalculatorModel {
-    
+    // test
     var total: Double
     var taxPct: Double
     var subtotal: Double {
