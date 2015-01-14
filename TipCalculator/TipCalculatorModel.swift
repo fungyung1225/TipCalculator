@@ -11,6 +11,7 @@ import Foundation
 class TipCalculatorModel {
     // test
     //test2
+    //test 3
 
     var total: Double
     var taxPct: Double
